@@ -1,0 +1,28 @@
+digraph G {
+"lonebot/base_link" -> "lonebot/sensors/imu_link"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"lonebot/base_link" -> "lonebot/chassis_link"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"lonebot/chassis_link" -> "lonebot/default_mount"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"lonebot/default_mount" -> "lonebot/front_0_mount"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"lonebot/base_link" -> "lonebot/front_fender_link"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"lonebot/chassis_link" -> "lonebot/imu_0_link"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"lonebot/chassis_link" -> "lonebot/gps_0_link"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"lonebot/default_mount" -> "lonebot/rear_0_mount"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"lonebot/base_link" -> "lonebot/rear_fender_link"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"lonebot/base_link" -> "lonebot/os_sensor"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"lonebot/os_sensor" -> "lonebot/os_lidar"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"lonebot/os_sensor" -> "lonebot/os_imu"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"lonebot/base_link" -> "lonebot/gps_link"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"lonebot/chassis_link" -> "lonebot/front_left_wheel_link"[label=" Broadcaster: default_authority\nAverage rate: 16.865\nBuffer length: 5.04\nMost recent transform: 1763664884.025884\nOldest transform: 1763664878.985877\n"];
+"lonebot/chassis_link" -> "lonebot/front_right_wheel_link"[label=" Broadcaster: default_authority\nAverage rate: 16.865\nBuffer length: 5.04\nMost recent transform: 1763664884.025884\nOldest transform: 1763664878.985877\n"];
+"lonebot/chassis_link" -> "lonebot/rear_left_wheel_link"[label=" Broadcaster: default_authority\nAverage rate: 16.865\nBuffer length: 5.04\nMost recent transform: 1763664884.025884\nOldest transform: 1763664878.985877\n"];
+"lonebot/chassis_link" -> "lonebot/rear_right_wheel_link"[label=" Broadcaster: default_authority\nAverage rate: 16.865\nBuffer length: 5.04\nMost recent transform: 1763664884.025884\nOldest transform: 1763664878.985877\n"];
+"lonebot_realsense_link" -> "lonebot_realsense_depth_frame"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"lonebot/base_link" -> "lonebot_realsense_link"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"lonebot_realsense_depth_frame" -> "lonebot_realsense_depth_optical_frame"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"lonebot_realsense_link" -> "lonebot_realsense_color_frame"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"lonebot_realsense_color_frame" -> "lonebot_realsense_color_optical_frame"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 1763664884.0440543"[ shape=plaintext ] ;
+}->"lonebot/base_link";
+}

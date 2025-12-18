@@ -1,0 +1,32 @@
+[0.016s] Invoking command in '/home/robot/jackal_nav2_ws/build/jackal_nav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com NX_CONNECTION=10.147.78.120 34510 10.159.67.249 4000 /usr/bin/cmake /home/robot/jackal_nav2_ws/src/jackal_nav2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/robot/jackal_nav2_ws/install/jackal_nav2
+[0.030s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.260s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.367s] -- Configuring done (0.3s)
+[0.370s] -- Generating done (0.0s)
+[0.371s] -- Build files have been written to: /home/robot/jackal_nav2_ws/build/jackal_nav2
+[0.374s] Invoked command in '/home/robot/jackal_nav2_ws/build/jackal_nav2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com NX_CONNECTION=10.147.78.120 34510 10.159.67.249 4000 /usr/bin/cmake /home/robot/jackal_nav2_ws/src/jackal_nav2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/robot/jackal_nav2_ws/install/jackal_nav2
+[0.375s] Invoking command in '/home/robot/jackal_nav2_ws/build/jackal_nav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com NX_CONNECTION=10.147.78.120 34510 10.159.67.249 4000 /usr/bin/cmake --build /home/robot/jackal_nav2_ws/build/jackal_nav2 -- -j8 -l8
+[0.418s] Invoked command in '/home/robot/jackal_nav2_ws/build/jackal_nav2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com NX_CONNECTION=10.147.78.120 34510 10.159.67.249 4000 /usr/bin/cmake --build /home/robot/jackal_nav2_ws/build/jackal_nav2 -- -j8 -l8
+[0.427s] Invoking command in '/home/robot/jackal_nav2_ws/build/jackal_nav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com NX_CONNECTION=10.147.78.120 34510 10.159.67.249 4000 /usr/bin/cmake --install /home/robot/jackal_nav2_ws/build/jackal_nav2
+[0.435s] -- Install configuration: ""
+[0.436s] -- Execute custom install script
+[0.436s] -- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/jackal_nav2/share/jackal_nav2/launch/nav2_with_lio.launch.py
+[0.436s] -- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/jackal_nav2/share/jackal_nav2/launch/pointcloud_to_laserscan.launch.py
+[0.436s] -- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/jackal_nav2/share/jackal_nav2/config/nav2_params.yaml
+[0.437s] -- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/jackal_nav2/share/jackal_nav2/config/nav2_params.yaml.backup
+[0.437s] -- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/jackal_nav2/share/ament_index/resource_index/package_run_dependencies/jackal_nav2
+[0.437s] -- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/jackal_nav2/share/ament_index/resource_index/parent_prefix_path/jackal_nav2
+[0.437s] -- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/jackal_nav2/share/jackal_nav2/environment/ament_prefix_path.sh
+[0.437s] -- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/jackal_nav2/share/jackal_nav2/environment/ament_prefix_path.dsv
+[0.438s] -- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/jackal_nav2/share/jackal_nav2/environment/path.sh
+[0.438s] -- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/jackal_nav2/share/jackal_nav2/environment/path.dsv
+[0.438s] -- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/jackal_nav2/share/jackal_nav2/local_setup.bash
+[0.438s] -- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/jackal_nav2/share/jackal_nav2/local_setup.sh
+[0.438s] -- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/jackal_nav2/share/jackal_nav2/local_setup.zsh
+[0.438s] -- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/jackal_nav2/share/jackal_nav2/local_setup.dsv
+[0.438s] -- Symlinking: /home/robot/jackal_nav2_ws/install/jackal_nav2/share/jackal_nav2/package.dsv
+[0.448s] -- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/jackal_nav2/share/ament_index/resource_index/packages/jackal_nav2
+[0.448s] -- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/jackal_nav2/share/jackal_nav2/cmake/jackal_nav2Config.cmake
+[0.448s] -- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/jackal_nav2/share/jackal_nav2/cmake/jackal_nav2Config-version.cmake
+[0.448s] -- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/jackal_nav2/share/jackal_nav2/package.xml
+[0.450s] Invoked command in '/home/robot/jackal_nav2_ws/build/jackal_nav2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com NX_CONNECTION=10.147.78.120 34510 10.159.67.249 4000 /usr/bin/cmake --install /home/robot/jackal_nav2_ws/build/jackal_nav2

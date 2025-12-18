@@ -1,0 +1,413 @@
+[0.016s] Invoking command in '/home/robot/jackal_nav2_ws/build/lio_sam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/robot/jackal_nav2_ws/src/LIO-SAM -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/robot/jackal_nav2_ws/install/lio_sam
+[0.137s] -- The C compiler identification is GNU 13.3.0
+[0.370s] -- The CXX compiler identification is GNU 13.3.0
+[0.401s] -- Detecting C compiler ABI info
+[0.558s] -- Detecting C compiler ABI info - done
+[0.571s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.571s] -- Detecting C compile features
+[0.572s] -- Detecting C compile features - done
+[0.590s] -- Detecting CXX compiler ABI info
+[0.771s] -- Detecting CXX compiler ABI info - done
+[0.784s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.791s] -- Detecting CXX compile features
+[0.792s] -- Detecting CXX compile features - done
+[0.793s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.046s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.195s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.276s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[1.290s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.393s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.479s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.491s] -- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.642s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.651s] -- Found rmw_cyclonedds_cpp: 2.2.3 (/opt/ros/jazzy/share/rmw_cyclonedds_cpp/cmake)
+[1.716s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.838s] -- Found rclpy: 7.1.5 (/opt/ros/jazzy/share/rclpy/cmake)
+[1.840s] -- Found cv_bridge: 4.1.0 (/opt/ros/jazzy/share/cv_bridge/cmake)
+[1.974s] -- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[2.021s] -- Found visualization_msgs: 5.3.6 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+[2.064s] -- Found pcl_conversions: 2.6.2 (/opt/ros/jazzy/share/pcl_conversions/cmake)
+[2.192s] [33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindFLANN.cmake:45 (find_package):
+[2.193s]   Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+[2.193s]   variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+[2.193s]   cmake_policy command to set the policy and suppress this warning.
+[2.193s] 
+[2.193s]   CMake variable FLANN_ROOT is set to:
+[2.193s] 
+[2.193s]     /usr
+[2.193s] 
+[2.193s]   For compatibility, find_package is ignoring the variable, but code in a
+[2.193s]   .cmake module might still use it.
+[2.193s] Call Stack (most recent call first):
+[2.193s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:261 (find_package)
+[2.193s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:306 (find_flann)
+[2.194s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:570 (find_external_library)
+[2.194s]   /opt/ros/jazzy/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[2.194s]   /opt/ros/jazzy/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)
+[2.194s]   CMakeLists.txt:20 (find_package)
+[2.194s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.194s] [0m
+[2.194s] -- Found flann version 1.9.2
+[2.761s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[2.762s] -- Found OpenMP: TRUE (found version "4.5") found components: CXX 
+[5.179s] -- Checking for module 'libusb-1.0'
+[5.214s] --   Found libusb-1.0, version 1.0.27
+[5.278s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[5.279s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[5.409s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[5.414s] -- Found Pcap: /usr/lib/x86_64-linux-gnu/libpcap.so  
+[5.438s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.3")  
+[5.470s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.43") 
+[6.378s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[6.391s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[7.231s] -- Found Qhull version 8.0.2
+[8.100s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[8.965s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[8.967s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[8.969s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[8.971s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[8.973s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[8.975s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[8.975s] -- Found PCL_2D: /usr/include/pcl-1.14  
+[8.976s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.14  
+[8.978s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[8.982s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[8.983s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[8.985s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[8.987s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[8.990s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[8.993s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[8.995s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[8.996s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[8.999s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[9.008s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[9.008s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[9.008s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.14  
+[9.008s] -- Found PCL_MODELER: /usr/include/pcl-1.14  
+[9.008s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.14  
+[9.010s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[9.013s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[9.024s] -- Found tf2: 0.36.14 (/opt/ros/jazzy/share/tf2/cmake)
+[9.034s] -- Found tf2_geometry_msgs: 0.36.14 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+[9.057s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[9.061s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[9.062s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[9.286s] -- Found tf2_sensor_msgs: 0.36.14 (/opt/ros/jazzy/share/tf2_sensor_msgs/cmake)
+[9.300s] -- Found tf2_eigen: 0.36.14 (/opt/ros/jazzy/share/tf2_eigen/cmake)
+[9.310s] -- Found OpenCV: /usr (found version "4.6.0") 
+[9.310s] [33mCMake Warning (dev) at CMakeLists.txt:29 (find_package):
+[9.310s]   Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+[9.311s]   Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+[9.311s]   command to set the policy and suppress this warning.
+[9.311s] 
+[9.311s]   CMake variable PCL_ROOT is set to:
+[9.313s] 
+[9.313s]     /usr
+[9.313s] 
+[9.313s]   For compatibility, CMake is ignoring the variable.
+[9.313s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[9.313s] [0m
+[9.376s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found suitable version "1.83.0", minimum required is "1.70") found components: serialization filesystem thread program_options date_time timer chrono regex 
+[9.381s] -- GTSAM include directory:  /usr/local/lib/cmake/GTSAM/../../../include
+[9.563s] -- Found OpenMP_C: -fopenmp (found version "4.5") 
+[9.564s] -- Found OpenMP: TRUE (found version "4.5")  
+[10.744s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[11.711s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[12.964s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[12.971s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[13.231s] -- Found PythonExtra: /usr/bin/python3  
+[14.062s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[14.418s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[14.476s] -- Added test 'copyright' to check source files copyright and LICENSE
+[14.481s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[14.484s] -- Configured cppcheck include dirs: /home/robot/jackal_nav2_ws/src/LIO-SAM/include/lio_sam
+[14.484s] -- Configured cppcheck exclude dirs and/or files: 
+[14.491s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[14.491s] -- Configured cpplint exclude dirs and/or files: 
+[14.493s] -- Added test 'flake8' to check Python code syntax and style conventions
+[14.493s] -- Configured 'flake8' exclude dirs and/or files: 
+[14.495s] -- Added test 'lint_cmake' to check CMake code style
+[14.497s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[14.504s] -- Added test 'uncrustify' to check C / C++ code style
+[14.504s] -- Configured uncrustify additional arguments: 
+[14.506s] -- Added test 'xmllint' to check XML markup files
+[14.515s] -- Configuring done (14.5s)
+[14.838s] -- Generating done (0.2s)
+[14.893s] -- Build files have been written to: /home/robot/jackal_nav2_ws/build/lio_sam
+[14.978s] Invoked command in '/home/robot/jackal_nav2_ws/build/lio_sam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/robot/jackal_nav2_ws/src/LIO-SAM -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/robot/jackal_nav2_ws/install/lio_sam
+[14.982s] Invoking command in '/home/robot/jackal_nav2_ws/build/lio_sam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/robot/jackal_nav2_ws/build/lio_sam -- -j8 -l8
+[15.093s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[15.109s] [  1%] Built target ament_cmake_python_symlink_lio_sam
+[15.498s] running egg_info
+[15.498s] creating lio_sam.egg-info
+[15.533s] writing lio_sam.egg-info/PKG-INFO
+[15.534s] writing dependency_links to lio_sam.egg-info/dependency_links.txt
+[15.534s] writing top-level names to lio_sam.egg-info/top_level.txt
+[15.534s] writing manifest file 'lio_sam.egg-info/SOURCES.txt'
+[15.568s] [  1%] Built target lio_sam__rosidl_generator_type_description
+[15.590s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[15.614s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[15.647s] reading manifest file 'lio_sam.egg-info/SOURCES.txt'
+[15.649s] writing manifest file 'lio_sam.egg-info/SOURCES.txt'
+[15.763s] [  5%] Built target ament_cmake_python_build_lio_sam_egg
+[16.321s] [  5%] Built target lio_sam__cpp
+[16.363s] [  7%] [32mBuilding C object CMakeFiles/lio_sam__rosidl_generator_c.dir/rosidl_generator_c/lio_sam/msg/detail/cloud_info__description.c.o[0m
+[16.363s] [  9%] [32mBuilding C object CMakeFiles/lio_sam__rosidl_generator_c.dir/rosidl_generator_c/lio_sam/msg/detail/cloud_info__functions.c.o[0m
+[16.363s] [ 11%] [32mBuilding C object CMakeFiles/lio_sam__rosidl_generator_c.dir/rosidl_generator_c/lio_sam/srv/detail/save_map__functions.c.o[0m
+[16.363s] [ 13%] [32mBuilding C object CMakeFiles/lio_sam__rosidl_generator_c.dir/rosidl_generator_c/lio_sam/msg/detail/cloud_info__type_support.c.o[0m
+[16.370s] [ 15%] [32mBuilding C object CMakeFiles/lio_sam__rosidl_generator_c.dir/rosidl_generator_c/lio_sam/srv/detail/save_map__description.c.o[0m
+[16.375s] [ 17%] [32mBuilding C object CMakeFiles/lio_sam__rosidl_generator_c.dir/rosidl_generator_c/lio_sam/srv/detail/save_map__type_support.c.o[0m
+[16.709s] [ 19%] [32m[1mLinking C shared library liblio_sam__rosidl_generator_c.so[0m
+[16.778s] [ 19%] Built target lio_sam__rosidl_generator_c
+[16.799s] [ 21%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[16.800s] [ 23%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[16.800s] [ 26%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[16.800s] [ 26%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[16.802s] [ 28%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[16.805s] [ 30%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[17.471s] [ 32%] [32mBuilding CXX object CMakeFiles/lio_sam__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lio_sam/msg/cloud_info__type_support.cpp.o[0m
+[17.471s] [ 34%] [32mBuilding CXX object CMakeFiles/lio_sam__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lio_sam/srv/save_map__type_support.cpp.o[0m
+[17.596s] [ 36%] [32mBuilding C object CMakeFiles/lio_sam__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lio_sam/srv/detail/save_map__type_support.c.o[0m
+[17.614s] [ 38%] [32mBuilding CXX object CMakeFiles/lio_sam__rosidl_typesupport_c.dir/rosidl_typesupport_c/lio_sam/msg/cloud_info__type_support.cpp.o[0m
+[17.617s] [ 40%] [32mBuilding C object CMakeFiles/lio_sam__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lio_sam/msg/detail/cloud_info__type_support.c.o[0m
+[17.746s] [ 42%] [32mBuilding CXX object CMakeFiles/lio_sam__rosidl_typesupport_c.dir/rosidl_typesupport_c/lio_sam/srv/save_map__type_support.cpp.o[0m
+[17.869s] [ 44%] [32m[1mLinking CXX shared library liblio_sam__rosidl_typesupport_c.so[0m
+[17.894s] [ 46%] [32m[1mLinking C shared library liblio_sam__rosidl_typesupport_introspection_c.so[0m
+[17.932s] [ 48%] [32mBuilding CXX object CMakeFiles/lio_sam__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lio_sam/msg/detail/dds_fastrtps/cloud_info__type_support.cpp.o[0m
+[17.942s] [ 50%] [32mBuilding CXX object CMakeFiles/lio_sam__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lio_sam/msg/detail/cloud_info__type_support_c.cpp.o[0m
+[17.947s] [ 51%] [32mBuilding CXX object CMakeFiles/lio_sam__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lio_sam/srv/detail/dds_fastrtps/save_map__type_support.cpp.o[0m
+[18.035s] [ 51%] Built target lio_sam__rosidl_typesupport_introspection_c
+[18.081s] [ 53%] [32mBuilding CXX object CMakeFiles/lio_sam__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lio_sam/srv/detail/save_map__type_support_c.cpp.o[0m
+[18.113s] [ 53%] Built target lio_sam__rosidl_typesupport_c
+[18.217s] [ 55%] [32mBuilding CXX object CMakeFiles/lio_sam__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lio_sam/srv/detail/save_map__type_support.cpp.o[0m
+[18.219s] [ 57%] [32mBuilding CXX object CMakeFiles/lio_sam__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lio_sam/msg/detail/cloud_info__type_support.cpp.o[0m
+[19.054s] [ 59%] [32m[1mLinking CXX shared library liblio_sam__rosidl_typesupport_cpp.so[0m
+[19.402s] [ 59%] Built target lio_sam__rosidl_typesupport_cpp
+[19.480s] [ 61%] [32mBuilding CXX object CMakeFiles/lio_sam_imuPreintegration.dir/src/imuPreintegration.cpp.o[0m
+[19.506s] [ 63%] [32mBuilding CXX object CMakeFiles/lio_sam_featureExtraction.dir/src/featureExtraction.cpp.o[0m
+[19.514s] [ 65%] [32mBuilding CXX object CMakeFiles/lio_sam_imageProjection.dir/src/imageProjection.cpp.o[0m
+[19.612s] [ 67%] [32mBuilding CXX object CMakeFiles/lio_sam_mapOptimization.dir/src/mapOptmization.cpp.o[0m
+[19.940s] [ 69%] [32m[1mLinking CXX shared library liblio_sam__rosidl_typesupport_introspection_cpp.so[0m
+[20.092s] [ 71%] [32m[1mLinking CXX shared library liblio_sam__rosidl_typesupport_fastrtps_c.so[0m
+[20.138s] [ 71%] Built target lio_sam__rosidl_typesupport_introspection_cpp
+[20.363s] [ 71%] Built target lio_sam__rosidl_typesupport_fastrtps_c
+[20.477s] [ 73%] [32m[1mLinking CXX shared library liblio_sam__rosidl_typesupport_fastrtps_cpp.so[0m
+[20.680s] [ 73%] Built target lio_sam__rosidl_typesupport_fastrtps_cpp
+[20.725s] [ 73%] Built target lio_sam
+[20.770s] [ 75%] [34m[1mGenerating Python code for ROS interfaces[0m
+[21.978s] [ 75%] Built target lio_sam__py
+[22.033s] [ 76%] [32mBuilding C object CMakeFiles/lio_sam__rosidl_generator_py.dir/rosidl_generator_py/lio_sam/msg/_cloud_info_s.c.o[0m
+[22.044s] [ 78%] [32mBuilding C object CMakeFiles/lio_sam__rosidl_generator_py.dir/rosidl_generator_py/lio_sam/srv/_save_map_s.c.o[0m
+[22.760s] [ 80%] [32m[1mLinking C shared library liblio_sam__rosidl_generator_py.so[0m
+[22.989s] [ 80%] Built target lio_sam__rosidl_generator_py
+[23.048s] [ 82%] [32mBuilding C object CMakeFiles/lio_sam_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/lio_sam/_lio_sam_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[23.051s] [ 84%] [32mBuilding C object CMakeFiles/lio_sam_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/lio_sam/_lio_sam_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[23.063s] [ 86%] [32mBuilding C object CMakeFiles/lio_sam_s__rosidl_typesupport_c.dir/rosidl_generator_py/lio_sam/_lio_sam_s.ep.rosidl_typesupport_c.c.o[0m
+[23.524s] [ 88%] [32m[1mLinking C shared module rosidl_generator_py/lio_sam/lio_sam_s__rosidl_typesupport_introspection_c.so[0m
+[23.575s] [ 90%] [32m[1mLinking C shared module rosidl_generator_py/lio_sam/lio_sam_s__rosidl_typesupport_c.so[0m
+[23.644s] [ 90%] Built target lio_sam_s__rosidl_typesupport_introspection_c
+[23.676s] [ 90%] Built target lio_sam_s__rosidl_typesupport_c
+[23.694s] [ 92%] [32m[1mLinking C shared module rosidl_generator_py/lio_sam/lio_sam_s__rosidl_typesupport_fastrtps_c.so[0m
+[23.757s] [ 92%] Built target lio_sam_s__rosidl_typesupport_fastrtps_c
+[27.183s] In file included from [01m[K/home/robot/jackal_nav2_ws/src/LIO-SAM/src/imuPreintegration.cpp:17[m[K:
+[27.183s] [01m[K/usr/local/include/gtsam_unstable/nonlinear/IncrementalFixedLagSmoother.h:17:2:[m[K [01;35m[Kwarning: [m[K#warning "IncrementalFixedLagSmoother was moved to the gtsam/nonlinear directory" [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[27.183s]    17 | #[01;35m[Kwarning[m[K "IncrementalFixedLagSmoother was moved to the gtsam/nonlinear directory"
+[27.183s]       |  [01;35m[K^~~~~~~[m[K
+[72.544s] [ 94%] [32m[1mLinking CXX executable lio_sam_featureExtraction[0m
+[74.936s] [ 94%] Built target lio_sam_featureExtraction
+[89.608s] [ 96%] [32m[1mLinking CXX executable lio_sam_imageProjection[0m
+[91.319s] [ 96%] Built target lio_sam_imageProjection
+[105.155s] [ 98%] [32m[1mLinking CXX executable lio_sam_imuPreintegration[0m
+[107.397s] [ 98%] Built target lio_sam_imuPreintegration
+[141.760s] [100%] [32m[1mLinking CXX executable lio_sam_mapOptimization[0m
+[145.384s] [100%] Built target lio_sam_mapOptimization
+[145.413s] Invoked command in '/home/robot/jackal_nav2_ws/build/lio_sam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/robot/jackal_nav2_ws/build/lio_sam -- -j8 -l8
+[145.416s] Invoking command in '/home/robot/jackal_nav2_ws/build/lio_sam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/robot/jackal_nav2_ws/build/lio_sam
+[145.429s] -- Install configuration: "Release"
+[145.431s] -- Execute custom install script
+[145.431s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/share/ament_index/resource_index/rosidl_interfaces/lio_sam
+[145.446s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam/msg/CloudInfo.json
+[145.471s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam/srv/SaveMap.json
+[145.495s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/include/lio_sam/lio_sam/msg/cloud_info.h
+[145.513s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__functions.h
+[145.532s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__struct.h
+[145.548s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__type_support.h
+[145.565s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/include/lio_sam/lio_sam/msg/rosidl_generator_c__visibility_control.h
+[145.584s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__functions.h
+[145.607s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__struct.h
+[145.627s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__type_support.h
+[145.645s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/include/lio_sam/lio_sam/srv/save_map.h
+[145.662s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam/environment/library_path.sh
+[145.681s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam/environment/library_path.dsv
+[145.703s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__rosidl_typesupport_fastrtps_c.h
+[145.724s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/include/lio_sam/lio_sam/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[145.739s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__rosidl_typesupport_fastrtps_c.h
+[145.757s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__rosidl_typesupport_introspection_c.h
+[145.775s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/include/lio_sam/lio_sam/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[145.799s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__rosidl_typesupport_introspection_c.h
+[145.820s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/include/lio_sam/lio_sam/msg/cloud_info.hpp
+[145.840s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__builder.hpp
+[145.860s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__struct.hpp
+[145.877s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__traits.hpp
+[145.898s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__type_support.hpp
+[145.925s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/include/lio_sam/lio_sam/msg/rosidl_generator_cpp__visibility_control.hpp
+[145.934s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__builder.hpp
+[145.959s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__struct.hpp
+[145.978s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__traits.hpp
+[145.999s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__type_support.hpp
+[146.015s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/include/lio_sam/lio_sam/srv/save_map.hpp
+[146.033s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__rosidl_typesupport_fastrtps_cpp.hpp
+[146.051s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/include/lio_sam/lio_sam/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[146.067s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__rosidl_typesupport_fastrtps_cpp.hpp
+[146.088s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__rosidl_typesupport_introspection_cpp.hpp
+[146.115s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__rosidl_typesupport_introspection_cpp.hpp
+[146.129s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam/environment/pythonpath.sh
+[146.146s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam/environment/pythonpath.dsv
+[146.166s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/lib/python3.12/site-packages/lio_sam-1.0.0-py3.12.egg-info/PKG-INFO
+[146.187s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/lib/python3.12/site-packages/lio_sam-1.0.0-py3.12.egg-info/SOURCES.txt
+[146.208s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/lib/python3.12/site-packages/lio_sam-1.0.0-py3.12.egg-info/dependency_links.txt
+[146.227s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/lib/python3.12/site-packages/lio_sam-1.0.0-py3.12.egg-info/top_level.txt
+[146.243s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/lib/python3.12/site-packages/lio_sam/__init__.py
+[146.264s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/lib/python3.12/site-packages/lio_sam/_lio_sam_s.ep.rosidl_typesupport_c.c
+[146.284s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/lib/python3.12/site-packages/lio_sam/_lio_sam_s.ep.rosidl_typesupport_fastrtps_c.c
+[146.308s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/lib/python3.12/site-packages/lio_sam/_lio_sam_s.ep.rosidl_typesupport_introspection_c.c
+[146.328s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/lib/python3.12/site-packages/lio_sam/lio_sam_s__rosidl_typesupport_c.so
+[146.344s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/lib/python3.12/site-packages/lio_sam/lio_sam_s__rosidl_typesupport_fastrtps_c.so
+[146.364s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/lib/python3.12/site-packages/lio_sam/lio_sam_s__rosidl_typesupport_introspection_c.so
+[146.383s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/lib/python3.12/site-packages/lio_sam/msg/__init__.py
+[146.405s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/lib/python3.12/site-packages/lio_sam/msg/_cloud_info.py
+[146.424s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/lib/python3.12/site-packages/lio_sam/msg/_cloud_info_s.c
+[146.440s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/lib/python3.12/site-packages/lio_sam/srv/__init__.py
+[146.458s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/lib/python3.12/site-packages/lio_sam/srv/_save_map.py
+[146.481s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/lib/python3.12/site-packages/lio_sam/srv/_save_map_s.c
+[146.503s] -- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/lib/python3.12/site-packages/lio_sam/lio_sam_s__rosidl_typesupport_fastrtps_c.so
+[146.505s] -- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/lib/python3.12/site-packages/lio_sam/lio_sam_s__rosidl_typesupport_introspection_c.so
+[146.505s] -- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/lib/python3.12/site-packages/lio_sam/lio_sam_s__rosidl_typesupport_c.so
+[146.506s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam/msg/CloudInfo.idl
+[146.526s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam/srv/SaveMap.idl
+[146.535s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam/msg/CloudInfo.msg
+[146.549s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam/srv/SaveMap.srv
+[146.566s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam//launch/lio_map_projection.launch.py
+[146.585s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam//launch/run.launch.py
+[146.603s] [33mCMake Warning (dev) at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:62 (file):
+[146.603s]   Policy CMP0009 is not set: FILE GLOB_RECURSE calls should not follow
+[146.604s]   symlinks by default.  Run "cmake --help-policy CMP0009" for policy details.
+[146.604s]   Use the cmake_policy command to set the policy and suppress this warning.
+[146.604s] Call Stack (most recent call first):
+[146.604s]   ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:383 (ament_cmake_symlink_install_directory)
+[146.604s]   cmake_install.cmake:46 (include)
+[146.604s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[146.604s] [0m
+[146.604s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam//config/build/.built_by
+[146.620s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam//config/build/COLCON_IGNORE
+[146.638s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam//config/doc/demo.gif
+[146.655s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam//config/doc/device-boat.png
+[146.672s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam//config/doc/device-hand-2.png
+[146.692s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam//config/doc/device-hand.png
+[146.710s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam//config/doc/device-jackal.png
+[146.726s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam//config/doc/gps-demo.gif
+[146.743s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam//config/doc/imu-debug.gif
+[146.758s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam//config/doc/imu-transform.png
+[146.776s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam//config/doc/kitti-demo.gif
+[146.798s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam//config/doc/kitti-map.png
+[146.819s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam//config/doc/kitti2bag/README.md
+[146.838s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam//config/doc/kitti2bag/kitti2bag.py
+[146.854s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam//config/doc/loop-closure-2.gif
+[146.873s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam//config/doc/loop-closure.gif
+[146.894s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam//config/doc/ouster-demo.gif
+[146.915s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam//config/doc/ouster-device.jpg
+[146.936s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam//config/doc/paper.pdf
+[146.948s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam//config/doc/system.png
+[146.964s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam//config/install/.colcon_install_layout
+[146.981s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam//config/install/COLCON_IGNORE
+[147.005s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam//config/install/_local_setup_util_ps1.py
+[147.027s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam//config/install/_local_setup_util_sh.py
+[147.042s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam//config/install/local_setup.bash
+[147.060s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam//config/install/local_setup.ps1
+[147.080s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam//config/install/local_setup.sh
+[147.107s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam//config/install/local_setup.zsh
+[147.129s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam//config/install/setup.bash
+[147.146s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam//config/install/setup.ps1
+[147.165s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam//config/install/setup.sh
+[147.188s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam//config/install/setup.zsh
+[147.213s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam//config/log/COLCON_IGNORE
+[147.231s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam//config/log/build_2025-10-31_17-14-19/events.log
+[147.247s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam//config/log/build_2025-10-31_17-14-19/logger_all.log
+[147.260s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam//config/log/build_2025-10-31_18-34-24/events.log
+[147.281s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam//config/log/build_2025-10-31_18-34-24/logger_all.log
+[147.304s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam//config/log/latest/events.log
+[147.315s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam//config/log/latest/logger_all.log
+[147.335s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam//config/log/latest_build/events.log
+[147.352s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam//config/log/latest_build/logger_all.log
+[147.370s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam//config/params.yaml
+[147.392s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam//config/robot.urdf.xacro
+[147.415s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam//config/rviz2.rviz
+[147.430s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/lib/lio_sam/lio_sam_imageProjection
+[147.447s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/lib/lio_sam/lio_sam_imuPreintegration
+[147.468s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/lib/lio_sam/lio_sam_featureExtraction
+[147.490s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/lib/lio_sam/lio_sam_mapOptimization
+[147.510s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/include/lio_sam/utility.hpp
+[147.529s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/share/ament_index/resource_index/package_run_dependencies/lio_sam
+[147.542s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/share/ament_index/resource_index/parent_prefix_path/lio_sam
+[147.560s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam/environment/ament_prefix_path.sh
+[147.582s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam/environment/ament_prefix_path.dsv
+[147.605s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam/environment/path.sh
+[147.623s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam/environment/path.dsv
+[147.640s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam/local_setup.bash
+[147.661s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam/local_setup.sh
+[147.678s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam/local_setup.zsh
+[147.701s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam/local_setup.dsv
+[147.724s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam/package.dsv
+[147.737s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/share/ament_index/resource_index/packages/lio_sam
+[147.755s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam/cmake/rosidl_cmake-extras.cmake
+[147.780s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam/cmake/ament_cmake_export_dependencies-extras.cmake
+[147.801s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam/cmake/ament_cmake_export_include_directories-extras.cmake
+[147.817s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam/cmake/ament_cmake_export_libraries-extras.cmake
+[147.834s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam/cmake/ament_cmake_export_targets-extras.cmake
+[147.851s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[147.876s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[147.898s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam/cmake/lio_samConfig.cmake
+[147.920s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam/cmake/lio_samConfig-version.cmake
+[147.936s] -- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam/package.xml
+[147.952s] -- Installing: /home/robot/jackal_nav2_ws/install/lio_sam/lib/liblio_sam__rosidl_generator_c.so
+[147.952s] -- Set non-toolchain portion of runtime path of "/home/robot/jackal_nav2_ws/install/lio_sam/lib/liblio_sam__rosidl_generator_c.so" to ""
+[147.952s] -- Installing: /home/robot/jackal_nav2_ws/install/lio_sam/lib/liblio_sam__rosidl_typesupport_fastrtps_c.so
+[147.952s] -- Set non-toolchain portion of runtime path of "/home/robot/jackal_nav2_ws/install/lio_sam/lib/liblio_sam__rosidl_typesupport_fastrtps_c.so" to ""
+[147.952s] -- Installing: /home/robot/jackal_nav2_ws/install/lio_sam/lib/liblio_sam__rosidl_typesupport_introspection_c.so
+[147.953s] -- Set non-toolchain portion of runtime path of "/home/robot/jackal_nav2_ws/install/lio_sam/lib/liblio_sam__rosidl_typesupport_introspection_c.so" to ""
+[147.953s] -- Installing: /home/robot/jackal_nav2_ws/install/lio_sam/lib/liblio_sam__rosidl_typesupport_c.so
+[147.954s] -- Set non-toolchain portion of runtime path of "/home/robot/jackal_nav2_ws/install/lio_sam/lib/liblio_sam__rosidl_typesupport_c.so" to ""
+[147.954s] -- Installing: /home/robot/jackal_nav2_ws/install/lio_sam/lib/liblio_sam__rosidl_typesupport_fastrtps_cpp.so
+[147.954s] -- Set non-toolchain portion of runtime path of "/home/robot/jackal_nav2_ws/install/lio_sam/lib/liblio_sam__rosidl_typesupport_fastrtps_cpp.so" to ""
+[147.954s] -- Installing: /home/robot/jackal_nav2_ws/install/lio_sam/lib/liblio_sam__rosidl_typesupport_introspection_cpp.so
+[147.954s] -- Set non-toolchain portion of runtime path of "/home/robot/jackal_nav2_ws/install/lio_sam/lib/liblio_sam__rosidl_typesupport_introspection_cpp.so" to ""
+[147.954s] -- Installing: /home/robot/jackal_nav2_ws/install/lio_sam/lib/liblio_sam__rosidl_typesupport_cpp.so
+[147.954s] -- Set non-toolchain portion of runtime path of "/home/robot/jackal_nav2_ws/install/lio_sam/lib/liblio_sam__rosidl_typesupport_cpp.so" to ""
+[148.027s] Listing '/home/robot/jackal_nav2_ws/install/lio_sam/lib/python3.12/site-packages/lio_sam'...
+[148.027s] Compiling '/home/robot/jackal_nav2_ws/install/lio_sam/lib/python3.12/site-packages/lio_sam/__init__.py'...
+[148.028s] Listing '/home/robot/jackal_nav2_ws/install/lio_sam/lib/python3.12/site-packages/lio_sam/msg'...
+[148.028s] Compiling '/home/robot/jackal_nav2_ws/install/lio_sam/lib/python3.12/site-packages/lio_sam/msg/__init__.py'...
+[148.029s] Compiling '/home/robot/jackal_nav2_ws/install/lio_sam/lib/python3.12/site-packages/lio_sam/msg/_cloud_info.py'...
+[148.029s] Listing '/home/robot/jackal_nav2_ws/install/lio_sam/lib/python3.12/site-packages/lio_sam/srv'...
+[148.029s] Compiling '/home/robot/jackal_nav2_ws/install/lio_sam/lib/python3.12/site-packages/lio_sam/srv/__init__.py'...
+[148.029s] Compiling '/home/robot/jackal_nav2_ws/install/lio_sam/lib/python3.12/site-packages/lio_sam/srv/_save_map.py'...
+[148.037s] -- Installing: /home/robot/jackal_nav2_ws/install/lio_sam/lib/liblio_sam__rosidl_generator_py.so
+[148.038s] -- Set non-toolchain portion of runtime path of "/home/robot/jackal_nav2_ws/install/lio_sam/lib/liblio_sam__rosidl_generator_py.so" to ""
+[148.038s] -- Installing: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_generator_cExport.cmake
+[148.038s] -- Installing: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_generator_cExport-release.cmake
+[148.040s] -- Installing: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_typesupport_fastrtps_cExport.cmake
+[148.040s] -- Installing: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_typesupport_fastrtps_cExport-release.cmake
+[148.040s] -- Installing: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_introspection_cExport.cmake
+[148.040s] -- Installing: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_introspection_cExport-release.cmake
+[148.040s] -- Installing: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_cExport.cmake
+[148.040s] -- Installing: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_cExport-release.cmake
+[148.040s] -- Installing: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_generator_cppExport.cmake
+[148.041s] -- Installing: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_typesupport_fastrtps_cppExport.cmake
+[148.041s] -- Installing: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[148.041s] -- Installing: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_introspection_cppExport.cmake
+[148.041s] -- Installing: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_introspection_cppExport-release.cmake
+[148.041s] -- Installing: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_cppExport.cmake
+[148.041s] -- Installing: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_cppExport-release.cmake
+[148.041s] -- Installing: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_generator_pyExport.cmake
+[148.041s] -- Installing: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_generator_pyExport-release.cmake
+[148.043s] Invoked command in '/home/robot/jackal_nav2_ws/build/lio_sam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/robot/jackal_nav2_ws/build/lio_sam

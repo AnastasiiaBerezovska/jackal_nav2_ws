@@ -1,0 +1,846 @@
+[0.000000] (-) TimerEvent: {}
+[0.000233] (-) JobUnselected: {'identifier': 'jackal_nav2'}
+[0.000447] (lio_sam) JobQueued: {'identifier': 'lio_sam', 'dependencies': OrderedDict()}
+[0.000476] (lio_sam) JobStarted: {'identifier': 'lio_sam'}
+[0.011053] (lio_sam) JobProgress: {'identifier': 'lio_sam', 'progress': 'cmake'}
+[0.012266] (lio_sam) JobProgress: {'identifier': 'lio_sam', 'progress': 'build'}
+[0.013182] (lio_sam) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/robot/jackal_nav2_ws/build/lio_sam', '--', '-j8', '-l8'], 'cwd': '/home/robot/jackal_nav2_ws/build/lio_sam', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'robot', 'SSH_CLIENT': '10.154.41.169 44738 22', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/robot/jackal_nav2_ws/src/install/lio_sam/lib:/usr/local/lib:/home/robot/jackal_nav2_ws/install/lio_sam/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/libphidget22/lib:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/robot', 'CYCLONEDDS_URI': 'file:///etc/phoenix/cyclone.xml', 'OLDPWD': '/home/robot/jackal_nav2_ws', 'SSH_TTY': '/dev/pts/2', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/robot/jackal_nav2_ws/install:/home/robot/jackal_nav2_ws/src/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'robot', 'IGN_GAZEBO_MODEL_PATH': '/opt/ros/jazzy/share', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'GAZEBO_MODEL_PATH': '/opt/ros/jazzy/share/:/opt/ros/jazzy/share', 'PATH': '/home/robot/.local/bin:/home/robot/.local/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'ROS_DOMAIN_ID': '10', 'AMENT_PREFIX_PATH': '/home/robot/jackal_nav2_ws/install/lio_sam:/home/robot/jackal_nav2_ws/install/jackal_nav2:/home/robot/jackal_nav2_ws/src/install/lio_sam:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/robot/jackal_nav2_ws/build/lio_sam', 'SSH_CONNECTION': '10.154.41.169 44738 10.159.65.42 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/robot/jackal_nav2_ws/install/lio_sam/lib/python3.12/site-packages:/home/robot/jackal_nav2_ws/src/install/lio_sam/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/robot/jackal_nav2_ws/install/lio_sam:/home/robot/jackal_nav2_ws/install/jackal_nav2:/home/robot/jackal_nav2_ws/src/install/lio_sam:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.074629] (lio_sam) StdoutLine: {'line': b'[  1%] Built target lio_sam__rosidl_generator_type_description\n'}
+[0.084112] (lio_sam) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_symlink_lio_sam\n'}
+[0.097740] (lio_sam) StdoutLine: {'line': b'[  3%] Built target lio_sam__cpp\n'}
+[0.099406] (-) TimerEvent: {}
+[0.100538] (lio_sam) StdoutLine: {'line': b'[ 19%] Built target lio_sam__rosidl_generator_c\n'}
+[0.131125] (lio_sam) StdoutLine: {'line': b'[ 26%] Built target lio_sam__rosidl_typesupport_fastrtps_c\n'}
+[0.131628] (lio_sam) StdoutLine: {'line': b'[ 38%] Built target lio_sam__rosidl_typesupport_introspection_c\n'}
+[0.131980] (lio_sam) StdoutLine: {'line': b'[ 42%] Built target lio_sam__rosidl_typesupport_introspection_cpp\n'}
+[0.135794] (lio_sam) StdoutLine: {'line': b'[ 50%] Built target lio_sam__rosidl_typesupport_fastrtps_cpp\n'}
+[0.136922] (lio_sam) StdoutLine: {'line': b'[ 57%] Built target lio_sam__rosidl_typesupport_c\n'}
+[0.137117] (lio_sam) StdoutLine: {'line': b'[ 65%] Built target lio_sam__rosidl_typesupport_cpp\n'}
+[0.159201] (lio_sam) StdoutLine: {'line': b'[ 65%] Built target lio_sam\n'}
+[0.186774] (lio_sam) StdoutLine: {'line': b'[ 71%] Built target lio_sam__py\n'}
+[0.187002] (lio_sam) StdoutLine: {'line': b'[ 71%] Built target lio_sam_imageProjection\n'}
+[0.191050] (lio_sam) StdoutLine: {'line': b'[ 75%] Built target lio_sam_imuPreintegration\n'}
+[0.192286] (lio_sam) StdoutLine: {'line': b'[ 78%] Built target lio_sam_featureExtraction\n'}
+[0.199493] (-) TimerEvent: {}
+[0.214051] (lio_sam) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/lio_sam_mapOptimization.dir/src/mapOptmization.cpp.o\x1b[0m\n'}
+[0.214512] (lio_sam) StdoutLine: {'line': b'[ 86%] Built target lio_sam__rosidl_generator_py\n'}
+[0.241658] (lio_sam) StdoutLine: {'line': b'[ 98%] Built target lio_sam_s__rosidl_typesupport_fastrtps_c\n'}
+[0.241847] (lio_sam) StdoutLine: {'line': b'[ 98%] Built target lio_sam_s__rosidl_typesupport_c\n'}
+[0.242487] (lio_sam) StdoutLine: {'line': b'[ 98%] Built target lio_sam_s__rosidl_typesupport_introspection_c\n'}
+[0.299610] (-) TimerEvent: {}
+[0.399888] (-) TimerEvent: {}
+[0.408771] (lio_sam) StdoutLine: {'line': b'running egg_info\n'}
+[0.441310] (lio_sam) StdoutLine: {'line': b'writing lio_sam.egg-info/PKG-INFO\n'}
+[0.441554] (lio_sam) StdoutLine: {'line': b'writing dependency_links to lio_sam.egg-info/dependency_links.txt\n'}
+[0.441691] (lio_sam) StdoutLine: {'line': b'writing top-level names to lio_sam.egg-info/top_level.txt\n'}
+[0.500039] (-) TimerEvent: {}
+[0.536074] (lio_sam) StdoutLine: {'line': b"reading manifest file 'lio_sam.egg-info/SOURCES.txt'\n"}
+[0.536683] (lio_sam) StdoutLine: {'line': b"writing manifest file 'lio_sam.egg-info/SOURCES.txt'\n"}
+[0.567509] (lio_sam) StdoutLine: {'line': b'[ 98%] Built target ament_cmake_python_build_lio_sam_egg\n'}
+[0.600136] (-) TimerEvent: {}
+[0.700395] (-) TimerEvent: {}
+[0.800670] (-) TimerEvent: {}
+[0.900947] (-) TimerEvent: {}
+[1.001280] (-) TimerEvent: {}
+[1.101520] (-) TimerEvent: {}
+[1.201755] (-) TimerEvent: {}
+[1.302039] (-) TimerEvent: {}
+[1.402267] (-) TimerEvent: {}
+[1.502554] (-) TimerEvent: {}
+[1.602941] (-) TimerEvent: {}
+[1.703243] (-) TimerEvent: {}
+[1.803530] (-) TimerEvent: {}
+[1.903761] (-) TimerEvent: {}
+[2.004038] (-) TimerEvent: {}
+[2.104299] (-) TimerEvent: {}
+[2.204562] (-) TimerEvent: {}
+[2.304829] (-) TimerEvent: {}
+[2.405106] (-) TimerEvent: {}
+[2.505377] (-) TimerEvent: {}
+[2.605726] (-) TimerEvent: {}
+[2.706031] (-) TimerEvent: {}
+[2.806304] (-) TimerEvent: {}
+[2.906589] (-) TimerEvent: {}
+[3.006923] (-) TimerEvent: {}
+[3.107398] (-) TimerEvent: {}
+[3.207661] (-) TimerEvent: {}
+[3.307902] (-) TimerEvent: {}
+[3.408185] (-) TimerEvent: {}
+[3.508440] (-) TimerEvent: {}
+[3.608695] (-) TimerEvent: {}
+[3.708939] (-) TimerEvent: {}
+[3.809261] (-) TimerEvent: {}
+[3.909502] (-) TimerEvent: {}
+[4.009893] (-) TimerEvent: {}
+[4.110195] (-) TimerEvent: {}
+[4.210427] (-) TimerEvent: {}
+[4.310691] (-) TimerEvent: {}
+[4.411018] (-) TimerEvent: {}
+[4.511530] (-) TimerEvent: {}
+[4.611801] (-) TimerEvent: {}
+[4.712052] (-) TimerEvent: {}
+[4.812328] (-) TimerEvent: {}
+[4.912725] (-) TimerEvent: {}
+[5.013060] (-) TimerEvent: {}
+[5.113413] (-) TimerEvent: {}
+[5.213629] (-) TimerEvent: {}
+[5.313946] (-) TimerEvent: {}
+[5.414554] (-) TimerEvent: {}
+[5.514798] (-) TimerEvent: {}
+[5.615205] (-) TimerEvent: {}
+[5.715537] (-) TimerEvent: {}
+[5.816121] (-) TimerEvent: {}
+[5.916719] (-) TimerEvent: {}
+[6.017184] (-) TimerEvent: {}
+[6.117478] (-) TimerEvent: {}
+[6.217796] (-) TimerEvent: {}
+[6.318057] (-) TimerEvent: {}
+[6.418294] (-) TimerEvent: {}
+[6.518536] (-) TimerEvent: {}
+[6.618804] (-) TimerEvent: {}
+[6.719057] (-) TimerEvent: {}
+[6.819294] (-) TimerEvent: {}
+[6.919570] (-) TimerEvent: {}
+[7.019807] (-) TimerEvent: {}
+[7.120176] (-) TimerEvent: {}
+[7.220510] (-) TimerEvent: {}
+[7.320868] (-) TimerEvent: {}
+[7.421116] (-) TimerEvent: {}
+[7.521377] (-) TimerEvent: {}
+[7.621647] (-) TimerEvent: {}
+[7.721926] (-) TimerEvent: {}
+[7.822257] (-) TimerEvent: {}
+[7.922511] (-) TimerEvent: {}
+[8.022893] (-) TimerEvent: {}
+[8.123136] (-) TimerEvent: {}
+[8.223368] (-) TimerEvent: {}
+[8.323632] (-) TimerEvent: {}
+[8.423886] (-) TimerEvent: {}
+[8.524268] (-) TimerEvent: {}
+[8.624682] (-) TimerEvent: {}
+[8.725016] (-) TimerEvent: {}
+[8.825279] (-) TimerEvent: {}
+[8.925619] (-) TimerEvent: {}
+[9.025890] (-) TimerEvent: {}
+[9.126200] (-) TimerEvent: {}
+[9.226493] (-) TimerEvent: {}
+[9.326741] (-) TimerEvent: {}
+[9.427032] (-) TimerEvent: {}
+[9.527261] (-) TimerEvent: {}
+[9.627519] (-) TimerEvent: {}
+[9.727748] (-) TimerEvent: {}
+[9.828020] (-) TimerEvent: {}
+[9.928329] (-) TimerEvent: {}
+[10.028603] (-) TimerEvent: {}
+[10.128872] (-) TimerEvent: {}
+[10.229146] (-) TimerEvent: {}
+[10.329381] (-) TimerEvent: {}
+[10.429624] (-) TimerEvent: {}
+[10.529855] (-) TimerEvent: {}
+[10.630142] (-) TimerEvent: {}
+[10.730382] (-) TimerEvent: {}
+[10.830621] (-) TimerEvent: {}
+[10.930866] (-) TimerEvent: {}
+[11.031132] (-) TimerEvent: {}
+[11.131368] (-) TimerEvent: {}
+[11.231651] (-) TimerEvent: {}
+[11.332072] (-) TimerEvent: {}
+[11.432531] (-) TimerEvent: {}
+[11.532961] (-) TimerEvent: {}
+[11.633233] (-) TimerEvent: {}
+[11.733530] (-) TimerEvent: {}
+[11.833793] (-) TimerEvent: {}
+[11.934107] (-) TimerEvent: {}
+[12.034347] (-) TimerEvent: {}
+[12.134586] (-) TimerEvent: {}
+[12.234847] (-) TimerEvent: {}
+[12.335119] (-) TimerEvent: {}
+[12.435370] (-) TimerEvent: {}
+[12.535633] (-) TimerEvent: {}
+[12.635908] (-) TimerEvent: {}
+[12.736240] (-) TimerEvent: {}
+[12.836750] (-) TimerEvent: {}
+[12.937054] (-) TimerEvent: {}
+[13.037317] (-) TimerEvent: {}
+[13.137624] (-) TimerEvent: {}
+[13.237888] (-) TimerEvent: {}
+[13.338165] (-) TimerEvent: {}
+[13.438424] (-) TimerEvent: {}
+[13.538678] (-) TimerEvent: {}
+[13.638975] (-) TimerEvent: {}
+[13.739253] (-) TimerEvent: {}
+[13.839524] (-) TimerEvent: {}
+[13.939786] (-) TimerEvent: {}
+[14.040047] (-) TimerEvent: {}
+[14.140359] (-) TimerEvent: {}
+[14.240733] (-) TimerEvent: {}
+[14.341026] (-) TimerEvent: {}
+[14.441292] (-) TimerEvent: {}
+[14.541549] (-) TimerEvent: {}
+[14.641817] (-) TimerEvent: {}
+[14.742130] (-) TimerEvent: {}
+[14.842383] (-) TimerEvent: {}
+[14.942605] (-) TimerEvent: {}
+[15.042861] (-) TimerEvent: {}
+[15.143092] (-) TimerEvent: {}
+[15.243320] (-) TimerEvent: {}
+[15.343574] (-) TimerEvent: {}
+[15.443834] (-) TimerEvent: {}
+[15.544124] (-) TimerEvent: {}
+[15.644382] (-) TimerEvent: {}
+[15.744635] (-) TimerEvent: {}
+[15.844857] (-) TimerEvent: {}
+[15.945141] (-) TimerEvent: {}
+[16.046151] (-) TimerEvent: {}
+[16.146652] (-) TimerEvent: {}
+[16.246936] (-) TimerEvent: {}
+[16.347222] (-) TimerEvent: {}
+[16.447485] (-) TimerEvent: {}
+[16.547762] (-) TimerEvent: {}
+[16.648054] (-) TimerEvent: {}
+[16.748336] (-) TimerEvent: {}
+[16.848664] (-) TimerEvent: {}
+[16.949028] (-) TimerEvent: {}
+[17.049304] (-) TimerEvent: {}
+[17.149564] (-) TimerEvent: {}
+[17.249825] (-) TimerEvent: {}
+[17.350114] (-) TimerEvent: {}
+[17.450384] (-) TimerEvent: {}
+[17.550640] (-) TimerEvent: {}
+[17.650900] (-) TimerEvent: {}
+[17.751132] (-) TimerEvent: {}
+[17.851353] (-) TimerEvent: {}
+[17.951574] (-) TimerEvent: {}
+[18.051796] (-) TimerEvent: {}
+[18.152043] (-) TimerEvent: {}
+[18.252284] (-) TimerEvent: {}
+[18.352623] (-) TimerEvent: {}
+[18.452895] (-) TimerEvent: {}
+[18.553249] (-) TimerEvent: {}
+[18.653546] (-) TimerEvent: {}
+[18.753797] (-) TimerEvent: {}
+[18.854073] (-) TimerEvent: {}
+[18.954352] (-) TimerEvent: {}
+[19.054601] (-) TimerEvent: {}
+[19.154878] (-) TimerEvent: {}
+[19.255144] (-) TimerEvent: {}
+[19.355361] (-) TimerEvent: {}
+[19.455604] (-) TimerEvent: {}
+[19.555856] (-) TimerEvent: {}
+[19.656187] (-) TimerEvent: {}
+[19.756547] (-) TimerEvent: {}
+[19.856790] (-) TimerEvent: {}
+[19.957038] (-) TimerEvent: {}
+[20.057286] (-) TimerEvent: {}
+[20.157539] (-) TimerEvent: {}
+[20.257795] (-) TimerEvent: {}
+[20.358017] (-) TimerEvent: {}
+[20.458266] (-) TimerEvent: {}
+[20.558511] (-) TimerEvent: {}
+[20.658757] (-) TimerEvent: {}
+[20.759041] (-) TimerEvent: {}
+[20.859302] (-) TimerEvent: {}
+[20.959558] (-) TimerEvent: {}
+[21.059824] (-) TimerEvent: {}
+[21.160092] (-) TimerEvent: {}
+[21.260331] (-) TimerEvent: {}
+[21.361102] (-) TimerEvent: {}
+[21.461503] (-) TimerEvent: {}
+[21.561733] (-) TimerEvent: {}
+[21.661997] (-) TimerEvent: {}
+[21.762233] (-) TimerEvent: {}
+[21.862483] (-) TimerEvent: {}
+[21.962765] (-) TimerEvent: {}
+[22.063041] (-) TimerEvent: {}
+[22.163294] (-) TimerEvent: {}
+[22.263566] (-) TimerEvent: {}
+[22.363881] (-) TimerEvent: {}
+[22.464208] (-) TimerEvent: {}
+[22.564521] (-) TimerEvent: {}
+[22.664775] (-) TimerEvent: {}
+[22.765077] (-) TimerEvent: {}
+[22.865304] (-) TimerEvent: {}
+[22.965677] (-) TimerEvent: {}
+[23.066033] (-) TimerEvent: {}
+[23.166337] (-) TimerEvent: {}
+[23.266617] (-) TimerEvent: {}
+[23.366888] (-) TimerEvent: {}
+[23.467173] (-) TimerEvent: {}
+[23.567434] (-) TimerEvent: {}
+[23.667672] (-) TimerEvent: {}
+[23.767942] (-) TimerEvent: {}
+[23.868280] (-) TimerEvent: {}
+[23.968545] (-) TimerEvent: {}
+[24.068814] (-) TimerEvent: {}
+[24.169119] (-) TimerEvent: {}
+[24.269394] (-) TimerEvent: {}
+[24.369654] (-) TimerEvent: {}
+[24.469883] (-) TimerEvent: {}
+[24.570160] (-) TimerEvent: {}
+[24.670438] (-) TimerEvent: {}
+[24.770695] (-) TimerEvent: {}
+[24.871007] (-) TimerEvent: {}
+[24.971261] (-) TimerEvent: {}
+[25.071546] (-) TimerEvent: {}
+[25.171913] (-) TimerEvent: {}
+[25.272397] (-) TimerEvent: {}
+[25.372771] (-) TimerEvent: {}
+[25.473031] (-) TimerEvent: {}
+[25.573279] (-) TimerEvent: {}
+[25.673517] (-) TimerEvent: {}
+[25.773702] (-) TimerEvent: {}
+[25.874054] (-) TimerEvent: {}
+[25.974332] (-) TimerEvent: {}
+[26.074554] (-) TimerEvent: {}
+[26.174779] (-) TimerEvent: {}
+[26.275060] (-) TimerEvent: {}
+[26.375311] (-) TimerEvent: {}
+[26.476095] (-) TimerEvent: {}
+[26.576598] (-) TimerEvent: {}
+[26.677000] (-) TimerEvent: {}
+[26.777297] (-) TimerEvent: {}
+[26.877566] (-) TimerEvent: {}
+[26.977873] (-) TimerEvent: {}
+[27.078151] (-) TimerEvent: {}
+[27.178506] (-) TimerEvent: {}
+[27.278730] (-) TimerEvent: {}
+[27.378974] (-) TimerEvent: {}
+[27.479213] (-) TimerEvent: {}
+[27.579469] (-) TimerEvent: {}
+[27.679735] (-) TimerEvent: {}
+[27.780049] (-) TimerEvent: {}
+[27.880347] (-) TimerEvent: {}
+[27.980596] (-) TimerEvent: {}
+[28.080885] (-) TimerEvent: {}
+[28.181121] (-) TimerEvent: {}
+[28.281370] (-) TimerEvent: {}
+[28.381607] (-) TimerEvent: {}
+[28.481837] (-) TimerEvent: {}
+[28.582103] (-) TimerEvent: {}
+[28.682331] (-) TimerEvent: {}
+[28.782576] (-) TimerEvent: {}
+[28.882794] (-) TimerEvent: {}
+[28.983058] (-) TimerEvent: {}
+[29.083325] (-) TimerEvent: {}
+[29.183584] (-) TimerEvent: {}
+[29.283869] (-) TimerEvent: {}
+[29.384168] (-) TimerEvent: {}
+[29.484420] (-) TimerEvent: {}
+[29.584674] (-) TimerEvent: {}
+[29.684940] (-) TimerEvent: {}
+[29.785213] (-) TimerEvent: {}
+[29.885408] (-) TimerEvent: {}
+[29.985706] (-) TimerEvent: {}
+[30.086005] (-) TimerEvent: {}
+[30.186227] (-) TimerEvent: {}
+[30.286443] (-) TimerEvent: {}
+[30.386700] (-) TimerEvent: {}
+[30.487001] (-) TimerEvent: {}
+[30.587250] (-) TimerEvent: {}
+[30.687513] (-) TimerEvent: {}
+[30.787860] (-) TimerEvent: {}
+[30.888107] (-) TimerEvent: {}
+[30.988336] (-) TimerEvent: {}
+[31.088565] (-) TimerEvent: {}
+[31.188788] (-) TimerEvent: {}
+[31.289085] (-) TimerEvent: {}
+[31.389311] (-) TimerEvent: {}
+[31.489529] (-) TimerEvent: {}
+[31.589777] (-) TimerEvent: {}
+[31.690080] (-) TimerEvent: {}
+[31.790327] (-) TimerEvent: {}
+[31.890581] (-) TimerEvent: {}
+[31.990837] (-) TimerEvent: {}
+[32.091078] (-) TimerEvent: {}
+[32.191339] (-) TimerEvent: {}
+[32.291603] (-) TimerEvent: {}
+[32.391864] (-) TimerEvent: {}
+[32.492154] (-) TimerEvent: {}
+[32.592383] (-) TimerEvent: {}
+[32.692661] (-) TimerEvent: {}
+[32.793021] (-) TimerEvent: {}
+[32.893410] (-) TimerEvent: {}
+[32.993765] (-) TimerEvent: {}
+[33.094129] (-) TimerEvent: {}
+[33.194399] (-) TimerEvent: {}
+[33.294709] (-) TimerEvent: {}
+[33.395140] (-) TimerEvent: {}
+[33.495507] (-) TimerEvent: {}
+[33.595807] (-) TimerEvent: {}
+[33.696140] (-) TimerEvent: {}
+[33.796366] (-) TimerEvent: {}
+[33.896582] (-) TimerEvent: {}
+[33.996828] (-) TimerEvent: {}
+[34.097085] (-) TimerEvent: {}
+[34.197312] (-) TimerEvent: {}
+[34.297568] (-) TimerEvent: {}
+[34.397817] (-) TimerEvent: {}
+[34.498046] (-) TimerEvent: {}
+[34.598298] (-) TimerEvent: {}
+[34.698544] (-) TimerEvent: {}
+[34.798897] (-) TimerEvent: {}
+[34.899189] (-) TimerEvent: {}
+[34.999493] (-) TimerEvent: {}
+[35.099721] (-) TimerEvent: {}
+[35.199994] (-) TimerEvent: {}
+[35.300212] (-) TimerEvent: {}
+[35.400464] (-) TimerEvent: {}
+[35.500686] (-) TimerEvent: {}
+[35.600942] (-) TimerEvent: {}
+[35.701198] (-) TimerEvent: {}
+[35.801427] (-) TimerEvent: {}
+[35.901644] (-) TimerEvent: {}
+[36.001905] (-) TimerEvent: {}
+[36.102250] (-) TimerEvent: {}
+[36.202618] (-) TimerEvent: {}
+[36.302917] (-) TimerEvent: {}
+[36.403214] (-) TimerEvent: {}
+[36.503451] (-) TimerEvent: {}
+[36.603674] (-) TimerEvent: {}
+[36.703899] (-) TimerEvent: {}
+[36.804184] (-) TimerEvent: {}
+[36.904427] (-) TimerEvent: {}
+[37.004648] (-) TimerEvent: {}
+[37.104869] (-) TimerEvent: {}
+[37.205150] (-) TimerEvent: {}
+[37.305406] (-) TimerEvent: {}
+[37.405832] (-) TimerEvent: {}
+[37.506208] (-) TimerEvent: {}
+[37.606497] (-) TimerEvent: {}
+[37.706801] (-) TimerEvent: {}
+[37.807054] (-) TimerEvent: {}
+[37.907313] (-) TimerEvent: {}
+[38.007571] (-) TimerEvent: {}
+[38.107825] (-) TimerEvent: {}
+[38.208092] (-) TimerEvent: {}
+[38.308353] (-) TimerEvent: {}
+[38.408611] (-) TimerEvent: {}
+[38.508834] (-) TimerEvent: {}
+[38.609070] (-) TimerEvent: {}
+[38.709323] (-) TimerEvent: {}
+[38.809583] (-) TimerEvent: {}
+[38.909976] (-) TimerEvent: {}
+[39.010289] (-) TimerEvent: {}
+[39.110541] (-) TimerEvent: {}
+[39.210796] (-) TimerEvent: {}
+[39.312837] (-) TimerEvent: {}
+[39.413242] (-) TimerEvent: {}
+[39.513558] (-) TimerEvent: {}
+[39.613962] (-) TimerEvent: {}
+[39.714341] (-) TimerEvent: {}
+[39.814725] (-) TimerEvent: {}
+[39.915071] (-) TimerEvent: {}
+[40.015515] (-) TimerEvent: {}
+[40.115838] (-) TimerEvent: {}
+[40.216117] (-) TimerEvent: {}
+[40.316426] (-) TimerEvent: {}
+[40.416702] (-) TimerEvent: {}
+[40.517034] (-) TimerEvent: {}
+[40.617267] (-) TimerEvent: {}
+[40.717499] (-) TimerEvent: {}
+[40.817730] (-) TimerEvent: {}
+[40.917962] (-) TimerEvent: {}
+[41.018188] (-) TimerEvent: {}
+[41.118426] (-) TimerEvent: {}
+[41.218703] (-) TimerEvent: {}
+[41.318940] (-) TimerEvent: {}
+[41.419248] (-) TimerEvent: {}
+[41.519511] (-) TimerEvent: {}
+[41.619751] (-) TimerEvent: {}
+[41.720040] (-) TimerEvent: {}
+[41.820311] (-) TimerEvent: {}
+[41.920638] (-) TimerEvent: {}
+[42.020864] (-) TimerEvent: {}
+[42.121164] (-) TimerEvent: {}
+[42.221422] (-) TimerEvent: {}
+[42.321688] (-) TimerEvent: {}
+[42.421992] (-) TimerEvent: {}
+[42.522388] (-) TimerEvent: {}
+[42.622616] (-) TimerEvent: {}
+[42.722893] (-) TimerEvent: {}
+[42.823170] (-) TimerEvent: {}
+[42.923474] (-) TimerEvent: {}
+[43.023749] (-) TimerEvent: {}
+[43.124048] (-) TimerEvent: {}
+[43.224323] (-) TimerEvent: {}
+[43.324532] (-) TimerEvent: {}
+[43.424755] (-) TimerEvent: {}
+[43.525012] (-) TimerEvent: {}
+[43.625233] (-) TimerEvent: {}
+[43.725459] (-) TimerEvent: {}
+[43.825826] (-) TimerEvent: {}
+[43.926125] (-) TimerEvent: {}
+[44.026356] (-) TimerEvent: {}
+[44.126582] (-) TimerEvent: {}
+[44.226810] (-) TimerEvent: {}
+[44.327082] (-) TimerEvent: {}
+[44.427340] (-) TimerEvent: {}
+[44.527602] (-) TimerEvent: {}
+[44.627925] (-) TimerEvent: {}
+[44.728208] (-) TimerEvent: {}
+[44.828434] (-) TimerEvent: {}
+[44.928688] (-) TimerEvent: {}
+[45.028916] (-) TimerEvent: {}
+[45.129246] (-) TimerEvent: {}
+[45.229494] (-) TimerEvent: {}
+[45.329741] (-) TimerEvent: {}
+[45.430042] (-) TimerEvent: {}
+[45.530257] (-) TimerEvent: {}
+[45.630481] (-) TimerEvent: {}
+[45.730749] (-) TimerEvent: {}
+[45.831174] (-) TimerEvent: {}
+[45.931638] (-) TimerEvent: {}
+[46.031888] (-) TimerEvent: {}
+[46.132432] (-) TimerEvent: {}
+[46.232912] (-) TimerEvent: {}
+[46.333265] (-) TimerEvent: {}
+[46.433503] (-) TimerEvent: {}
+[46.533720] (-) TimerEvent: {}
+[46.633942] (-) TimerEvent: {}
+[46.734199] (-) TimerEvent: {}
+[46.834425] (-) TimerEvent: {}
+[46.934648] (-) TimerEvent: {}
+[47.034896] (-) TimerEvent: {}
+[47.135139] (-) TimerEvent: {}
+[47.235387] (-) TimerEvent: {}
+[47.335684] (-) TimerEvent: {}
+[47.435917] (-) TimerEvent: {}
+[47.536187] (-) TimerEvent: {}
+[47.636429] (-) TimerEvent: {}
+[47.736660] (-) TimerEvent: {}
+[47.836901] (-) TimerEvent: {}
+[47.937191] (-) TimerEvent: {}
+[48.037426] (-) TimerEvent: {}
+[48.137654] (-) TimerEvent: {}
+[48.237877] (-) TimerEvent: {}
+[48.338190] (-) TimerEvent: {}
+[48.438410] (-) TimerEvent: {}
+[48.538646] (-) TimerEvent: {}
+[48.639001] (-) TimerEvent: {}
+[48.739314] (-) TimerEvent: {}
+[48.839584] (-) TimerEvent: {}
+[48.939806] (-) TimerEvent: {}
+[49.040037] (-) TimerEvent: {}
+[49.140272] (-) TimerEvent: {}
+[49.240538] (-) TimerEvent: {}
+[49.340796] (-) TimerEvent: {}
+[49.441046] (-) TimerEvent: {}
+[49.541299] (-) TimerEvent: {}
+[49.641563] (-) TimerEvent: {}
+[49.741797] (-) TimerEvent: {}
+[49.842056] (-) TimerEvent: {}
+[49.942345] (-) TimerEvent: {}
+[50.042628] (-) TimerEvent: {}
+[50.142901] (-) TimerEvent: {}
+[50.243176] (-) TimerEvent: {}
+[50.343400] (-) TimerEvent: {}
+[50.443647] (-) TimerEvent: {}
+[50.543872] (-) TimerEvent: {}
+[50.644130] (-) TimerEvent: {}
+[50.744370] (-) TimerEvent: {}
+[50.844602] (-) TimerEvent: {}
+[50.944828] (-) TimerEvent: {}
+[51.045102] (-) TimerEvent: {}
+[51.145331] (-) TimerEvent: {}
+[51.245773] (-) TimerEvent: {}
+[51.346355] (-) TimerEvent: {}
+[51.446746] (-) TimerEvent: {}
+[51.547055] (-) TimerEvent: {}
+[51.647363] (-) TimerEvent: {}
+[51.747607] (-) TimerEvent: {}
+[51.848017] (-) TimerEvent: {}
+[51.948261] (-) TimerEvent: {}
+[52.048561] (-) TimerEvent: {}
+[52.148827] (-) TimerEvent: {}
+[52.249146] (-) TimerEvent: {}
+[52.349390] (-) TimerEvent: {}
+[52.449640] (-) TimerEvent: {}
+[52.549897] (-) TimerEvent: {}
+[52.650130] (-) TimerEvent: {}
+[52.750448] (-) TimerEvent: {}
+[52.850708] (-) TimerEvent: {}
+[52.951003] (-) TimerEvent: {}
+[53.051292] (-) TimerEvent: {}
+[53.151542] (-) TimerEvent: {}
+[53.251765] (-) TimerEvent: {}
+[53.352129] (-) TimerEvent: {}
+[53.452369] (-) TimerEvent: {}
+[53.552736] (-) TimerEvent: {}
+[53.653006] (-) TimerEvent: {}
+[53.753258] (-) TimerEvent: {}
+[53.853482] (-) TimerEvent: {}
+[53.953719] (-) TimerEvent: {}
+[54.053976] (-) TimerEvent: {}
+[54.154257] (-) TimerEvent: {}
+[54.254552] (-) TimerEvent: {}
+[54.354784] (-) TimerEvent: {}
+[54.454993] (-) TimerEvent: {}
+[54.555236] (-) TimerEvent: {}
+[54.655457] (-) TimerEvent: {}
+[54.755685] (-) TimerEvent: {}
+[54.855905] (-) TimerEvent: {}
+[54.956186] (-) TimerEvent: {}
+[55.056445] (-) TimerEvent: {}
+[55.156662] (-) TimerEvent: {}
+[55.256879] (-) TimerEvent: {}
+[55.357159] (-) TimerEvent: {}
+[55.457420] (-) TimerEvent: {}
+[55.557655] (-) TimerEvent: {}
+[55.657878] (-) TimerEvent: {}
+[55.758144] (-) TimerEvent: {}
+[55.858364] (-) TimerEvent: {}
+[55.958589] (-) TimerEvent: {}
+[56.058813] (-) TimerEvent: {}
+[56.159047] (-) TimerEvent: {}
+[56.259275] (-) TimerEvent: {}
+[56.359507] (-) TimerEvent: {}
+[56.459729] (-) TimerEvent: {}
+[56.560015] (-) TimerEvent: {}
+[56.660270] (-) TimerEvent: {}
+[56.760519] (-) TimerEvent: {}
+[56.860795] (-) TimerEvent: {}
+[56.961276] (-) TimerEvent: {}
+[57.061495] (-) TimerEvent: {}
+[57.161716] (-) TimerEvent: {}
+[57.261997] (-) TimerEvent: {}
+[57.362258] (-) TimerEvent: {}
+[57.462507] (-) TimerEvent: {}
+[57.562814] (-) TimerEvent: {}
+[57.663106] (-) TimerEvent: {}
+[57.763403] (-) TimerEvent: {}
+[57.863655] (-) TimerEvent: {}
+[57.963997] (-) TimerEvent: {}
+[58.064241] (-) TimerEvent: {}
+[58.164560] (-) TimerEvent: {}
+[58.264777] (-) TimerEvent: {}
+[58.365090] (-) TimerEvent: {}
+[58.465318] (-) TimerEvent: {}
+[58.565600] (-) TimerEvent: {}
+[58.665939] (-) TimerEvent: {}
+[58.766200] (-) TimerEvent: {}
+[58.866419] (-) TimerEvent: {}
+[58.966677] (-) TimerEvent: {}
+[59.066939] (-) TimerEvent: {}
+[59.167199] (-) TimerEvent: {}
+[59.267412] (-) TimerEvent: {}
+[59.367633] (-) TimerEvent: {}
+[59.467886] (-) TimerEvent: {}
+[59.568204] (-) TimerEvent: {}
+[59.668503] (-) TimerEvent: {}
+[59.768726] (-) TimerEvent: {}
+[59.868944] (-) TimerEvent: {}
+[59.969205] (-) TimerEvent: {}
+[60.069451] (-) TimerEvent: {}
+[60.169693] (-) TimerEvent: {}
+[60.269968] (-) TimerEvent: {}
+[60.370231] (-) TimerEvent: {}
+[60.470485] (-) TimerEvent: {}
+[60.570752] (-) TimerEvent: {}
+[60.671020] (-) TimerEvent: {}
+[60.771306] (-) TimerEvent: {}
+[60.871584] (-) TimerEvent: {}
+[60.972068] (-) TimerEvent: {}
+[61.072543] (-) TimerEvent: {}
+[61.172795] (-) TimerEvent: {}
+[61.273177] (-) TimerEvent: {}
+[61.373445] (-) TimerEvent: {}
+[61.473732] (-) TimerEvent: {}
+[61.574030] (-) TimerEvent: {}
+[61.674314] (-) TimerEvent: {}
+[61.774550] (-) TimerEvent: {}
+[61.836570] (lio_sam) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable lio_sam_mapOptimization\x1b[0m\n'}
+[61.874656] (-) TimerEvent: {}
+[61.974904] (-) TimerEvent: {}
+[62.075180] (-) TimerEvent: {}
+[62.175450] (-) TimerEvent: {}
+[62.275840] (-) TimerEvent: {}
+[62.376267] (-) TimerEvent: {}
+[62.476827] (-) TimerEvent: {}
+[62.577168] (-) TimerEvent: {}
+[62.677612] (-) TimerEvent: {}
+[62.777907] (-) TimerEvent: {}
+[62.878236] (-) TimerEvent: {}
+[62.978509] (-) TimerEvent: {}
+[63.077050] (lio_sam) StdoutLine: {'line': b'[100%] Built target lio_sam_mapOptimization\n'}
+[63.078578] (-) TimerEvent: {}
+[63.089222] (lio_sam) CommandEnded: {'returncode': 0}
+[63.089836] (lio_sam) JobProgress: {'identifier': 'lio_sam', 'progress': 'install'}
+[63.099678] (lio_sam) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/robot/jackal_nav2_ws/build/lio_sam'], 'cwd': '/home/robot/jackal_nav2_ws/build/lio_sam', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'robot', 'SSH_CLIENT': '10.154.41.169 44738 22', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/robot/jackal_nav2_ws/src/install/lio_sam/lib:/usr/local/lib:/home/robot/jackal_nav2_ws/install/lio_sam/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/libphidget22/lib:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/robot', 'CYCLONEDDS_URI': 'file:///etc/phoenix/cyclone.xml', 'OLDPWD': '/home/robot/jackal_nav2_ws', 'SSH_TTY': '/dev/pts/2', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/robot/jackal_nav2_ws/install:/home/robot/jackal_nav2_ws/src/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'robot', 'IGN_GAZEBO_MODEL_PATH': '/opt/ros/jazzy/share', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'GAZEBO_MODEL_PATH': '/opt/ros/jazzy/share/:/opt/ros/jazzy/share', 'PATH': '/home/robot/.local/bin:/home/robot/.local/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'ROS_DOMAIN_ID': '10', 'AMENT_PREFIX_PATH': '/home/robot/jackal_nav2_ws/install/lio_sam:/home/robot/jackal_nav2_ws/install/jackal_nav2:/home/robot/jackal_nav2_ws/src/install/lio_sam:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/robot/jackal_nav2_ws/build/lio_sam', 'SSH_CONNECTION': '10.154.41.169 44738 10.159.65.42 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/robot/jackal_nav2_ws/install/lio_sam/lib/python3.12/site-packages:/home/robot/jackal_nav2_ws/src/install/lio_sam/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/robot/jackal_nav2_ws/install/lio_sam:/home/robot/jackal_nav2_ws/install/jackal_nav2:/home/robot/jackal_nav2_ws/src/install/lio_sam:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[63.108230] (lio_sam) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[63.108769] (lio_sam) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[63.108997] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/share/ament_index/resource_index/rosidl_interfaces/lio_sam\n'}
+[63.109245] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam/msg/CloudInfo.json\n'}
+[63.109427] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam/srv/SaveMap.json\n'}
+[63.109807] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/include/lio_sam/lio_sam/msg/cloud_info.h\n'}
+[63.109928] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__functions.h\n'}
+[63.110239] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__struct.h\n'}
+[63.110401] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__type_support.h\n'}
+[63.110650] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/include/lio_sam/lio_sam/msg/rosidl_generator_c__visibility_control.h\n'}
+[63.110870] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__functions.h\n'}
+[63.111013] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__struct.h\n'}
+[63.111143] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__type_support.h\n'}
+[63.111251] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/include/lio_sam/lio_sam/srv/save_map.h\n'}
+[63.111421] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam/environment/library_path.sh\n'}
+[63.111546] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam/environment/library_path.dsv\n'}
+[63.111982] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__rosidl_typesupport_fastrtps_c.h\n'}
+[63.112198] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/include/lio_sam/lio_sam/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[63.112411] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__rosidl_typesupport_fastrtps_c.h\n'}
+[63.112718] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__rosidl_typesupport_introspection_c.h\n'}
+[63.112866] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/include/lio_sam/lio_sam/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[63.112975] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__rosidl_typesupport_introspection_c.h\n'}
+[63.113436] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/include/lio_sam/lio_sam/msg/cloud_info.hpp\n'}
+[63.113671] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__builder.hpp\n'}
+[63.113814] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__struct.hpp\n'}
+[63.113909] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__traits.hpp\n'}
+[63.114066] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__type_support.hpp\n'}
+[63.114226] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/include/lio_sam/lio_sam/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[63.114355] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__builder.hpp\n'}
+[63.114449] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__struct.hpp\n'}
+[63.114577] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__traits.hpp\n'}
+[63.114726] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__type_support.hpp\n'}
+[63.114837] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/include/lio_sam/lio_sam/srv/save_map.hpp\n'}
+[63.115416] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[63.115553] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/include/lio_sam/lio_sam/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[63.115711] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[63.116075] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[63.116218] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__rosidl_typesupport_introspection_cpp.hpp\n'}
+[63.116310] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam/environment/pythonpath.sh\n'}
+[63.116481] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam/environment/pythonpath.dsv\n'}
+[63.116794] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/lib/python3.12/site-packages/lio_sam-1.0.0-py3.12.egg-info/PKG-INFO\n'}
+[63.116890] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/lib/python3.12/site-packages/lio_sam-1.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[63.117057] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/lib/python3.12/site-packages/lio_sam-1.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[63.117184] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/lib/python3.12/site-packages/lio_sam-1.0.0-py3.12.egg-info/top_level.txt\n'}
+[63.117696] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/lib/python3.12/site-packages/lio_sam/__init__.py\n'}
+[63.117804] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/lib/python3.12/site-packages/lio_sam/_lio_sam_s.ep.rosidl_typesupport_c.c\n'}
+[63.117910] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/lib/python3.12/site-packages/lio_sam/_lio_sam_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[63.118061] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/lib/python3.12/site-packages/lio_sam/_lio_sam_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[63.118156] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/lib/python3.12/site-packages/lio_sam/lio_sam_s__rosidl_typesupport_c.so\n'}
+[63.118251] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/lib/python3.12/site-packages/lio_sam/lio_sam_s__rosidl_typesupport_fastrtps_c.so\n'}
+[63.118349] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/lib/python3.12/site-packages/lio_sam/lio_sam_s__rosidl_typesupport_introspection_c.so\n'}
+[63.118439] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/lib/python3.12/site-packages/lio_sam/msg/__init__.py\n'}
+[63.118531] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/lib/python3.12/site-packages/lio_sam/msg/_cloud_info.py\n'}
+[63.118632] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/lib/python3.12/site-packages/lio_sam/msg/_cloud_info_s.c\n'}
+[63.118731] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/lib/python3.12/site-packages/lio_sam/srv/__init__.py\n'}
+[63.118831] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/lib/python3.12/site-packages/lio_sam/srv/_save_map.py\n'}
+[63.118923] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/lib/python3.12/site-packages/lio_sam/srv/_save_map_s.c\n'}
+[63.119239] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/lib/python3.12/site-packages/lio_sam/lio_sam_s__rosidl_typesupport_fastrtps_c.so\n'}
+[63.119528] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/lib/python3.12/site-packages/lio_sam/lio_sam_s__rosidl_typesupport_introspection_c.so\n'}
+[63.119788] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/lib/python3.12/site-packages/lio_sam/lio_sam_s__rosidl_typesupport_c.so\n'}
+[63.119960] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam/msg/CloudInfo.idl\n'}
+[63.120177] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam/srv/SaveMap.idl\n'}
+[63.120327] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam/msg/CloudInfo.msg\n'}
+[63.120469] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam/srv/SaveMap.srv\n'}
+[63.120745] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam//launch/lio_map_projection.launch.py\n'}
+[63.120841] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam//launch/run.launch.py\n'}
+[63.121459] (lio_sam) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:62 (file):\n'}
+[63.121563] (lio_sam) StderrLine: {'line': b'  Policy CMP0009 is not set: FILE GLOB_RECURSE calls should not follow\n'}
+[63.121643] (lio_sam) StderrLine: {'line': b'  symlinks by default.  Run "cmake --help-policy CMP0009" for policy details.\n'}
+[63.121717] (lio_sam) StderrLine: {'line': b'  Use the cmake_policy command to set the policy and suppress this warning.\n'}
+[63.121790] (lio_sam) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[63.121862] (lio_sam) StderrLine: {'line': b'  ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:383 (ament_cmake_symlink_install_directory)\n'}
+[63.121938] (lio_sam) StderrLine: {'line': b'  cmake_install.cmake:46 (include)\n'}
+[63.122119] (lio_sam) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[63.122235] (lio_sam) StderrLine: {'line': b'\x1b[0m\n'}
+[63.122305] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam//config/build/.built_by\n'}
+[63.122390] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam//config/build/COLCON_IGNORE\n'}
+[63.122470] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam//config/doc/demo.gif\n'}
+[63.122551] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam//config/doc/device-boat.png\n'}
+[63.122627] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam//config/doc/device-hand-2.png\n'}
+[63.122711] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam//config/doc/device-hand.png\n'}
+[63.122785] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam//config/doc/device-jackal.png\n'}
+[63.122859] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam//config/doc/gps-demo.gif\n'}
+[63.123059] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam//config/doc/imu-debug.gif\n'}
+[63.123177] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam//config/doc/imu-transform.png\n'}
+[63.123250] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam//config/doc/kitti-demo.gif\n'}
+[63.123333] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam//config/doc/kitti-map.png\n'}
+[63.123407] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam//config/doc/kitti2bag/README.md\n'}
+[63.123484] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam//config/doc/kitti2bag/kitti2bag.py\n'}
+[63.123591] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam//config/doc/loop-closure-2.gif\n'}
+[63.123691] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam//config/doc/loop-closure.gif\n'}
+[63.123776] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam//config/doc/ouster-demo.gif\n'}
+[63.123847] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam//config/doc/ouster-device.jpg\n'}
+[63.123920] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam//config/doc/paper.pdf\n'}
+[63.124088] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam//config/doc/system.png\n'}
+[63.124175] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam//config/install/.colcon_install_layout\n'}
+[63.124249] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam//config/install/COLCON_IGNORE\n'}
+[63.124322] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam//config/install/_local_setup_util_ps1.py\n'}
+[63.124395] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam//config/install/_local_setup_util_sh.py\n'}
+[63.124573] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam//config/install/local_setup.bash\n'}
+[63.124647] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam//config/install/local_setup.ps1\n'}
+[63.124720] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam//config/install/local_setup.sh\n'}
+[63.124824] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam//config/install/local_setup.zsh\n'}
+[63.125001] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam//config/install/setup.bash\n'}
+[63.125090] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam//config/install/setup.ps1\n'}
+[63.125162] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam//config/install/setup.sh\n'}
+[63.125250] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam//config/install/setup.zsh\n'}
+[63.125327] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam//config/log/COLCON_IGNORE\n'}
+[63.125442] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam//config/log/build_2025-10-31_17-14-19/events.log\n'}
+[63.125537] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam//config/log/build_2025-10-31_17-14-19/logger_all.log\n'}
+[63.125735] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam//config/log/build_2025-10-31_18-34-24/events.log\n'}
+[63.125903] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam//config/log/build_2025-10-31_18-34-24/logger_all.log\n'}
+[63.126152] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam//config/log/latest/events.log\n'}
+[63.126301] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam//config/log/latest/logger_all.log\n'}
+[63.126436] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam//config/log/latest_build/events.log\n'}
+[63.126568] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam//config/log/latest_build/logger_all.log\n'}
+[63.126647] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam//config/params.yaml\n'}
+[63.126744] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam//config/robot.urdf.xacro\n'}
+[63.126820] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam//config/rviz2.rviz\n'}
+[63.126901] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/lib/lio_sam/lio_sam_imageProjection\n'}
+[63.127183] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/lib/lio_sam/lio_sam_imuPreintegration\n'}
+[63.127426] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/lib/lio_sam/lio_sam_featureExtraction\n'}
+[63.127725] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/lib/lio_sam/lio_sam_mapOptimization\n'}
+[63.128070] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/include/lio_sam/utility.hpp\n'}
+[63.128272] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/share/ament_index/resource_index/package_run_dependencies/lio_sam\n'}
+[63.128431] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/share/ament_index/resource_index/parent_prefix_path/lio_sam\n'}
+[63.128570] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam/environment/ament_prefix_path.sh\n'}
+[63.128713] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam/environment/ament_prefix_path.dsv\n'}
+[63.128857] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam/environment/path.sh\n'}
+[63.128973] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam/environment/path.dsv\n'}
+[63.129207] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam/local_setup.bash\n'}
+[63.129394] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam/local_setup.sh\n'}
+[63.129498] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam/local_setup.zsh\n'}
+[63.129648] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam/local_setup.dsv\n'}
+[63.129779] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam/package.dsv\n'}
+[63.139739] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/share/ament_index/resource_index/packages/lio_sam\n'}
+[63.140018] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam/cmake/rosidl_cmake-extras.cmake\n'}
+[63.140164] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[63.140272] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[63.140435] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[63.140532] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[63.140686] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[63.140884] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[63.141123] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam/cmake/lio_samConfig.cmake\n'}
+[63.141238] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam/cmake/lio_samConfig-version.cmake\n'}
+[63.141386] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam/package.xml\n'}
+[63.141556] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/robot/jackal_nav2_ws/install/lio_sam/lib/liblio_sam__rosidl_generator_c.so\n'}
+[63.141863] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/robot/jackal_nav2_ws/install/lio_sam/lib/liblio_sam__rosidl_typesupport_fastrtps_c.so\n'}
+[63.142183] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/robot/jackal_nav2_ws/install/lio_sam/lib/liblio_sam__rosidl_typesupport_introspection_c.so\n'}
+[63.142412] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/robot/jackal_nav2_ws/install/lio_sam/lib/liblio_sam__rosidl_typesupport_c.so\n'}
+[63.142620] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/robot/jackal_nav2_ws/install/lio_sam/lib/liblio_sam__rosidl_typesupport_fastrtps_cpp.so\n'}
+[63.142882] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/robot/jackal_nav2_ws/install/lio_sam/lib/liblio_sam__rosidl_typesupport_introspection_cpp.so\n'}
+[63.143130] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/robot/jackal_nav2_ws/install/lio_sam/lib/liblio_sam__rosidl_typesupport_cpp.so\n'}
+[63.178679] (-) TimerEvent: {}
+[63.181334] (lio_sam) StdoutLine: {'line': b"Listing '/home/robot/jackal_nav2_ws/install/lio_sam/lib/python3.12/site-packages/lio_sam'...\n"}
+[63.181494] (lio_sam) StdoutLine: {'line': b"Listing '/home/robot/jackal_nav2_ws/install/lio_sam/lib/python3.12/site-packages/lio_sam/msg'...\n"}
+[63.181579] (lio_sam) StdoutLine: {'line': b"Listing '/home/robot/jackal_nav2_ws/install/lio_sam/lib/python3.12/site-packages/lio_sam/srv'...\n"}
+[63.186980] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/robot/jackal_nav2_ws/install/lio_sam/lib/liblio_sam__rosidl_generator_py.so\n'}
+[63.187254] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_generator_cExport.cmake\n'}
+[63.187417] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_generator_cExport-release.cmake\n'}
+[63.187506] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[63.187588] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_typesupport_fastrtps_cExport-release.cmake\n'}
+[63.187705] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_introspection_cExport.cmake\n'}
+[63.187785] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_introspection_cExport-release.cmake\n'}
+[63.187863] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_cExport.cmake\n'}
+[63.188029] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_cExport-release.cmake\n'}
+[63.188124] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_generator_cppExport.cmake\n'}
+[63.188221] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[63.188296] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_typesupport_fastrtps_cppExport-release.cmake\n'}
+[63.188370] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[63.188444] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_introspection_cppExport-release.cmake\n'}
+[63.188523] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_cppExport.cmake\n'}
+[63.188596] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_cppExport-release.cmake\n'}
+[63.188669] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_generator_pyExport.cmake\n'}
+[63.188743] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/robot/jackal_nav2_ws/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_generator_pyExport-release.cmake\n'}
+[63.189786] (lio_sam) CommandEnded: {'returncode': 0}
+[63.213595] (lio_sam) JobEnded: {'identifier': 'lio_sam', 'rc': 0}
+[63.214387] (-) EventReactorShutdown: {}

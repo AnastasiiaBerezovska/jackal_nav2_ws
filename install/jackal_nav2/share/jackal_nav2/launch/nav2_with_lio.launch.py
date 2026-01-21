@@ -1,1 +1,0 @@
-/home/robot/jackal_nav2_ws/src/jackal_nav2/launch/nav2_with_lio.launch.py

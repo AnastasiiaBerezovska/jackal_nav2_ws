@@ -1,1 +1,0 @@
-/home/robot/jackal_nav2_ws/src/LIO-SAM/config/doc/kitti2bag/README.md

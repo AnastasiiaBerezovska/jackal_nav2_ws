@@ -1,1 +1,0 @@
-/home/robot/jackal_nav2_ws/build/lio_sam/rosidl_generator_cpp/lio_sam/msg/cloud_info.hpp

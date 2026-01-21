@@ -1,1 +1,0 @@
-/home/robot/jackal_nav2_ws/build/lio_sam/ament_cmake_environment_hooks/local_setup.bash

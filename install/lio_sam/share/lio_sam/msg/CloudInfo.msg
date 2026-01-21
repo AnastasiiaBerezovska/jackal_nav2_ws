@@ -1,1 +1,0 @@
-/home/robot/jackal_nav2_ws/src/LIO-SAM/msg/CloudInfo.msg

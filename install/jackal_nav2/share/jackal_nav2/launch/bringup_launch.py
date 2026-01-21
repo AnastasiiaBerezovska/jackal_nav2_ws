@@ -1,1 +1,0 @@
-/home/robot/jackal_nav2_ws/src/jackal_nav2/launch/bringup_launch.py

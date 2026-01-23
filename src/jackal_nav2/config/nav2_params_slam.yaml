@@ -384,9 +384,11 @@ collision_monitor:
     base_frame_id: "lonebot/base_link"
     odom_frame_id: "odom"
     cmd_vel_in_topic: "cmd_vel_smoothed"
-    cmd_vel_out_topic: "/lonebot/cmd_vel"   # fixing this to start the motors
+    cmd_vel_out_topic: "/cmd_vel_nav"                            #"/lonebot/cmd_vel"   # fixing this to start the motors
     state_topic: "collision_monitor_state"
     transform_tolerance: 0.2
+
+    
     source_timeout: 1.0
     base_shift_correction: True
     stop_pub_timeout: 2.0
